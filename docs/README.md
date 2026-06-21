@@ -1,0 +1,9 @@
+# OctoAcme — Project Management Processes (Overview)
+
+OctoAcme runs projects with a clear, staged workflow that moves work from problem validation into planning, execution, and continuous improvement. Initiation begins with a Project One‑pager to capture the problem, goals, success metrics, stakeholders, and a high‑level timeline; a decision gate (go/no‑go) is used to authorize planning. During planning the team holds a kickoff, builds a prioritized backlog using a standardized backlog item template, sizes work, defines a Definition of Done, identifies dependencies and risks in a Risk Register, and produces a release plan and milestone map.
+
+Execution is tracked on a project board with columns like Backlog → Ready → In Progress → In Review → QA → Done, and PRs follow a small‑PR, tested, documented workflow (include issue link and acceptance criteria, run CI and linters, require approvals). The team maintains a regular cadence of daily standups, a weekly delivery sync, and sprint demos/reviews. Retrospectives after sprints and releases capture action items which are tracked back into the backlog.
+
+Roles and responsibilities are explicit: Product Managers define outcomes and success metrics, Project Managers coordinate delivery and communications, Developers implement features and tests, QA validates acceptance criteria, and stakeholders provide input and approvals. Persona templates and artifact templates (one‑pagers, backlog items, and risk entries) help ensure consistent ownership and handoffs.
+
+Quality is enforced through automated and manual practices: unit and integration tests, end‑to‑end smoke tests for critical flows, CI-based security scanning, and manual QA where needed. Releases are classified (patch/minor/major) and use pre‑release checks, staging smoke tests, post‑deploy verification, and a rollback/incident playbook with on‑call notification and blameless retrospectives.
